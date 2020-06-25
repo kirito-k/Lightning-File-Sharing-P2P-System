@@ -1,6 +1,6 @@
 # Lightning-File-Sharing-P2P-System
 
-##Implementation instruction -
+## Implementation
 
 Run docker-compose located in root directory with following command.
 Replace “number” by total number of peers required in system,
