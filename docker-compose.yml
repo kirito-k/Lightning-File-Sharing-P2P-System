@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  miniserver:
+    build: .
+    image: p2p:latest
+    working_dir: /app/p2p
+    networks:
+      p2pn:
+        ipv4_address: 172.20.1.2
+    expose:
+      - 8080
+    command: /bin/bash -c "sleep 1000s"
+
+  peer:
+    image: p2p:latest
+    depends_on:
+      - miniserver
+    working_dir: /app/p2p
+    networks:
+      - p2pn
+    command: /bin/bash -c "sleep 1000s"
+
+networks:
+  p2pn:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16
