@@ -2,6 +2,9 @@
 Lightning File Sharing P2P System is a peer to peer file sharing system based on Kademlia 
 routing. Kademlia is an optimized routing algorithm popularly used in distributed systems.
 
+There are two parts in this system.
+- Peers(those who sends and receives file from one another)
+- MiniServer(A centralized system which ONLY connects one peer to its closest peer)
 
 Time complexity of File sharing and routing is O(log(N)), where N is number of nodes in the system.
 
