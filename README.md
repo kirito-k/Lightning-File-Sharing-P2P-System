@@ -5,7 +5,7 @@ routing. Kademlia is an optimized routing algorithm popularly used in distribute
 
 Time complexity of File sharing and routing is O(log(N)), where N is number of nodes in the system.
 
-## Prerequisites 
+## Prerequisites:
 - Java
 - Maven
 
