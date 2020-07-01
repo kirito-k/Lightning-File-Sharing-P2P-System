@@ -53,6 +53,6 @@ Very clean and easy to understand GUI menu will show up.
 Let me know if you have any issues.
 
 ## Images
-![](./images/p2p.png)
+![](./images/p2p.png){:height="700px" width="400px"}
 
 Enjoy!
