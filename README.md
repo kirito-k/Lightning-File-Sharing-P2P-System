@@ -52,7 +52,7 @@ java -cp target/p2p-1.0-SNAPSHOT.jar edu.rit.cs.KademliaPeer
 Very clean and easy to understand GUI menu will show up.
 Let me know if you have any issues.
 
-## Images
+## Screenshots
 ![](./images/p2p.png)
 
 Enjoy!
